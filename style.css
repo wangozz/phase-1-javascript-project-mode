@@ -25,8 +25,8 @@ body {
   }
   /* style the second image */
   #img2{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:200px;
     position:;
     top:10px;
     left:50px;
@@ -75,44 +75,130 @@ body {
     color: black;
     padding: 5px 10px;
     border: none;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    text-align: center;
   }
   #p2{
     background-color: #D4BEA7;
     color: black;
     padding: 5px 10px;
     border: none;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    text-align: center;
   }
   #p3{
     background-color: #D4BEA7;
     color: black;
     padding: 5px 10px;
     border: none;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    text-align: center;
   }
   #p4{
     background-color: #D4BEA7;
     color: black;
     padding: 5px 10px;
     border: none;
-    border-radius: 0px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
+    text-align: center;
   }
 
   /* style quote text */
   #getstarted{
-    
+    text-align: center;
   }
 
   /*style bottom navigation bar*/
+
+  /*style options list */
+  .container {
+    display: flex; /* Use flexbox to create a flexible container */
+    align-items: center; /* Align items vertically at the top */
+    justify-content: center;
+  }
+  
+  .container img {
+    width: 300px; /* Adjust the width of the image as needed */
+    margin-right: 20px; /* Add spacing between the image and the list */
+  }
+  
+  .container .options {
+    list-style: none; /* Remove default list styles */
+    padding: 10; /* Remove default padding */
+
+  }
+  
+  .container .options li {
+    margin-bottom: 30px; /* Add spacing between list items */
+  }
+  
+  /*style the button*/
+  #start {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+  }
+  /*style the bottom navigation bar*/
+  #nav2 {
+    position:; /* Fix the navigation bar in place */
+    bottom: 0; /* Position it at the bottom of the page */
+    width: 100%; /* Make it span the entire width of the page */
+    /* Add a background color */
+    margin:20px;
+  }
+  
+  #nav2 ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: center; /* Center the list items horizontally */
+  }
+  
+  #nav2 li {
+    margin: 0 50px; /* Add spacing between list items */
+  }
+  
+  #nav2 li a {
+    color: black; /* Set the link color */
+    text-decoration: none; /* Remove underline */
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    text-align: center;
+  }
+  #nav2 ul li a:hover {
+    background-color: #D4BEA7;
+    border-radius: 10px;
+    padding:5px 10px;
+  }
+  /*style the input element*/
+  .container {
+    position: relative; /* Set the container as the positioning context */
+  }
+  
+  #inputWindow {
+    position: ; /* Position the input element absolutely within the container */
+    top: ; /* Adjust the top position as needed */
+    left: ; /* Adjust the left position as needed */
+    text-align: center;
+    border-radius: 10px;
+    padding:5px 10px;
+    background-color: #F0EDE6;
+  }
+  
+
 
   
 
